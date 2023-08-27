@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Age calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika&family=Great+Vibes&family=Montserrat&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto+Slab:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="inputs">
+        <div class="day all">
+          <p class="info" id="errorDayP">DAY</p>
+          <input
+            type="number"
+            name=""
+            id="day"
+            placeholder="DD"
+            min="1"
+            max="31"
+          />
+          <p class="error hide" id="errorDay"></p>
+        </div>
+        <div class="month all">
+          <p class="info" id="errorMonP">MONTH</p>
+          <input
+            type="number"
+            name=""
+            id="month"
+            placeholder="MM"
+            min="1"
+            max="12"
+          />
+          <p class="error hide" id="errorMon"></p>
+        </div>
+        <div class="year all">
+          <p class="info" id="errorYearP">YEAR</p>
+          <input
+            type="number"
+            name=""
+            id="year"
+            placeholder="YYYY"
+            min="1900"
+            max="2023"
+          />
+          <p class="error hide" id="errorYear"></p>
+        </div>
+      </div>
+      <div class="division">
+        <div class="line"></div>
+        <button class="button">
+          <img src="assets/images/icon-arrow.svg" alt="" />
+        </button>
+      </div>
+      <div class="count">
+        <div class="years"><span class="y result">- -</span> years</div>
+        <div class="months"><span class="m result">- -</span> months</div>
+        <div class="days"><span class="d result">- -</span> days</div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Łukasz Mróz</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
