@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](C:\Users\lukas\Downloads\age-calculator-app-main\age-calculator-app-main\screenshot.png)
 
 ### Links
 
